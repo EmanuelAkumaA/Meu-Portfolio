@@ -217,6 +217,15 @@ html{
     margin-bottom: 10px;
 }
 
+button a {
+    color: #ffffff;
+    text-decoration: none;
+    }
+    
+    .fa-download {
+    color: #ffffff;
+    }
+
 .sobremim button{
     cursor: pointer;
     background-color: transparent;
@@ -714,6 +723,10 @@ html{
     width: 100%;
 }
 
+
+
+  
+
 /*.contato .col .info{
     position: absolute;
     top: 40%;
@@ -856,6 +869,8 @@ footer .col .info{
         display: block;
     }
     .contato .fila .col{
-        width: 100%;
+        max-width: 700px;
+        margin: 0 auto;
     }
+ 
 }
